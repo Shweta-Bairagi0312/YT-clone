@@ -1,0 +1,585 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100vw;
+    height: 100vh;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0px;
+
+
+}
+.leftnav{
+    display: flex;
+    gap: 25px;
+}
+.leftnav img :nth-child(2){
+    width: 90px;
+}
+.centernav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.centernav > input{
+    background-color: black;
+    font-size: 15px;
+    
+    border: none;
+    border-radius: 15px;
+    width: 50%;
+    padding: 6px 15px;
+   
+    border-bottom-left-radius:20px ;
+    border-top-left-radius:20px ;
+    border:1px solid #303030 ;
+     
+}
+.centernav img:nth-child(2){
+    padding: 2px;
+    background-color:#222222 ;
+    border-bottom-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+.centernav img:nth-child(3){
+    margin-left: 10px;
+
+}
+
+.rightnav{
+    display: flex;
+    gap:15px;
+
+}
+
+.rightnav img:nth-child(3){
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+.ytpremium{
+    font-family: fantasy;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap:50px;
+
+    
+
+    
+}
+.ytdesc > h2{
+    font-family: serif;
+    text-align:center ;
+    font-weight: 100;
+    font-size: 20px;
+
+
+}
+.ytpdetails{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+   
+
+}
+button{
+    padding: 10px 15px;
+    background-color: rgba(0, 251, 255, 0.605);
+    border-radius: 20px;
+    width: 20%;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    
+}
+
+.ytpdetails p:nth-child(2){
+    font-size: 20px;
+}
+
+.ytpdetails p:nth-child(3){
+    color: aqua;
+}
+
+.features{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: black;
+    text-align: center;
+    gap: 25px;
+}
+
+
+.feature div:nth-child(1),.feature div:nth-child(2),.feature div:nth-child(3){
+   height: 50%;
+   width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.bg1{
+    background-image:url(bg1.jpeg);
+    background-size: cover;         /* scales the image to fill the screen */
+    height: 80vh;                  
+    margin: 0; 
+
+  
+  
+  height: 80vh;                  
+  margin: 0; 
+}
+.bg1 >  h2{
+    color: white;
+    padding: 230px 0 0 900px ;
+    font-size: 35px;
+    font-weight:500;
+    font-family:serif;
+
+}
+
+.bg1> p{
+    color: white;
+   
+    padding:50px 0 0 900px;
+         
+   
+                
+  
+
+}
+
+.bg2{
+    background-image:url(bg2.jpeg);
+    background-size: cover;         /* scales the image to fill the screen */
+    height: 80vh;                  
+    margin: 0; 
+
+  
+  
+  height: 80vh;                  
+  margin: 0; 
+}
+.bg2 >  h2{
+    color: white;
+    padding: 230px 0 0 200px ;
+    font-size: 35px;
+    font-weight:500;
+    font-family:serif;
+
+}
+
+.bg2> p{
+    color: white;
+   
+    padding:50px 0 0 200px;
+         
+   
+                
+  
+
+}
+
+
+.bg3{
+    background-image:url(bg3.jpeg);
+    background-size: cover;         /* scales the image to fill the screen */
+    height: 80vh;                  
+    margin: 0; 
+
+  
+  
+  height: 80vh;                  
+  margin: 0; 
+}
+.bg3 >  h2{
+    color: white;
+    padding: 230px 0 0 900px ;
+    font-size: 35px;
+    font-weight:500;
+    font-family:serif;
+
+}
+
+.bg3> p{
+    color: white;
+   
+    padding:50px 0 0 900px;
+         
+   
+                
+  
+
+}
+    
+.bg4{
+    background-image:url(bg4.jpeg);
+    background-size: cover;         /* scales the image to fill the screen */
+    height: 80vh;                  
+    margin: 0; 
+
+  
+  
+  height: 80vh;                  
+  margin: 0; 
+}
+.bg4 >  h2{
+    color: white;
+    padding: 230px 0 0 200px ;
+    font-size: 35px;
+    font-weight:500;
+    font-family:serif;
+
+}
+
+.bg4> p{
+    color: white;
+   
+    padding:50px 0 0 200px;
+         
+   
+                
+  
+
+}
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items:center;
+    color: white;
+    background-color: black;
+    height: 50vh;
+}
+
+.faqdetails{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+.drop{
+    display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.faqdetails>p{
+    font-size: 20px;
+}
+
+.helpcenter{
+    text-align: center;
+    gap: 20px;
+}
+
+span{
+    color: aqua;
+
+}
+
+/* Very Small devices (e.g., old iPhones) */
+@media screen and  (max-width: 480px) {
+    .centernav {
+    display: none;
+   }
+ .leftnav :nth-child(2){
+       width: 70px;
+ 
+   }
+
+   .ytpremiumlogo > img{
+    width: 100%;
+    margin: 20px;
+    
+   }
+   
+   button {
+    font-size: 10px;
+    padding: 10px 0px;
+    width: 45%;
+    text-align: center;
+}
+
+.features {
+   
+  
+    
+    height: 110vh;
+    flex-wrap: wrap;
+   
+}
+
+.feature div:nth-child(1),.feature div:nth-child(2),.feature div:nth-child(3){
+   height: 90%;
+   width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.bg1{
+   
+    height: 20vh;                  
+    
+}
+
+.bg2{
+   
+    height: 20vh;                  
+    
+}
+.bg3{
+   
+    height: 20vh;                  
+    
+}
+.bg4{
+   
+    height: 20vh;                  
+    
+}
+
+.bg1 > h2,
+.bg2 > h2,
+.bg3 > h2,
+.bg4 > h2 {
+  font-size: 4vw;
+  padding: 40px 20px 0 20px; /* smaller, consistent padding */
+  text-align: center;
+  font-weight: 500;
+}
+
+.bg1 > p,
+.bg2 > p,
+.bg3 > p,
+.bg4 > p {
+  font-size: 3vw;
+  padding: 20px 20px 0 20px;
+  text-align:center;
+  height: 70%;
+  font-weight: 200;
+}
+
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 60vh;
+}
+.helpcenter >p {
+    padding-top: 20px;
+}
+
+
+.helpcenter {
+    height:100%S;
+
+}
+
+
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .centernav {
+    display: flex;
+   }
+ .leftnav :nth-child(2){
+       width: 70px;
+ 
+   }
+
+   .ytpremiumlogo > img{
+    width: 100%;
+    margin: 20px;
+    
+   }
+   
+   button {
+    font-size: 10px;
+    padding: 10px 0px;
+    width: 45%;
+    text-align: center;
+}
+
+.features {
+   
+  
+    
+    height: 110vh;
+    flex-wrap: wrap;
+   
+}
+
+.feature div:nth-child(1),.feature div:nth-child(2),.feature div:nth-child(3){
+   height: 90%;
+   width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.bg1{
+   
+    height: 20vh;                  
+    
+}
+
+.bg2{
+   
+    height: 20vh;                  
+    
+}
+.bg3{
+   
+    height: 20vh;                  
+    
+}
+.bg4{
+   
+    height: 20vh;                  
+    
+}
+
+.bg1 > h2,
+.bg2 > h2,
+.bg3 > h2,
+.bg4 > h2 {
+  font-size: 3vw;
+  padding: 40px 20px 0 20px; /* smaller, consistent padding */
+  text-align: center;
+  font-weight: 500;
+}
+
+.bg1 > p,
+.bg2 > p,
+.bg3 > p,
+.bg4 > p {
+  font-size: 2vw;
+  padding: 20px 20px 0 20px;
+  text-align:center;
+  height: 70%;
+  font-weight: 200;
+}
+
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 60vh;
+}
+.helpcenter >p {
+    padding-top: 20px;
+}
+
+
+.helpcenter {
+    height:100%S;
+
+}
+
+
+  
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+.bg1{
+   
+    height: 50vh;                  
+    
+}
+
+.bg2{
+   
+    height: 50vh;                  
+    
+}
+.bg3{
+   
+    height: 50vh;                  
+    
+}
+.bg4{
+   
+    height: 50vh;                  
+    
+}
+
+.bg1 > h2,
+.bg2 > h2,
+.bg3 > h2,
+.bg4 > h2 {
+   color: white;
+    padding: 200px 0 0 700px ;
+    font-size: 25px;
+    font-weight:500;
+    font-family:serif;
+}
+
+.bg1 > p,
+.bg2 > p,
+.bg3 > p,
+.bg4 > p {
+  font-size: 20px;
+  padding: 20px 20px 0 20px;
+  text-align:center;
+  height: 70%;
+  font-weight: 200;
+}
+
+  
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  
+}
+
+@media screen and (min-width: 1201px)  {
+  
+}
+
+
